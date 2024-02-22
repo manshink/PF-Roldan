@@ -1,0 +1,393 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+header{
+    height: 85px;
+    width: 100%;
+    display: flex;
+    background-color: #A09EBB;
+}
+
+header nav{
+    display: flex;
+    align-items: center;
+    margin: 20px auto;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style-type: none;
+}
+
+nav a{
+    padding: 12px;
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+header .logo{
+    padding: 20px;
+}
+
+#hero{
+    height: 600px;
+    width: 100%;
+    background-image: url("../imagenes/medellin-hero.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#heroP{
+    height: 600px;
+    width: 100%;
+    background-image: url("../imagenes/medellin-dos.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#hero h1{
+    font-size: 48px;
+    text-transform: uppercase;
+    margin: 40px 0;
+    color: #FFF;
+}
+
+#heroP h1{
+    font-size: 48px;
+    text-transform: uppercase;
+    margin: 40px 0;
+    color: #FFF;
+}
+
+#totalPropiedades{
+    height: 100%;
+    width: 100%;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+}
+
+
+#totalPropiedades h2 {
+    font-size: 34px;
+    text-transform: uppercase;
+    margin: 50px 0 50px 0;
+    color: #FFF;
+    text-align: center;
+}
+
+.propiedades{
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 100px 0;
+}
+
+.propiedad {
+    height: 350px;
+    width: 350px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+.propiedad h4{
+    background-color: #5ac763;
+    color:beige;
+    height: 40px;
+    width: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    margin: 250px 0 0 0;
+}
+
+.propiedad.uno{
+    background-image: url("../imagenes/casa-uno.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+
+}
+
+.propiedad.dos{
+    background-image: url("../imagenes/casa-dos.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+
+}
+
+.propiedad.tres{
+    background-image: url("../imagenes/casa-tres.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+
+}
+
+
+.propiedad.cuatro{
+    background-image: url("../imagenes/casa-cuatro.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+
+}
+
+.propiedad.cinco{
+    background-image: url("../imagenes/casa-cinco.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+
+}
+
+.propiedad.seis{
+    background-image: url("../imagenes/casa-seis.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+
+}
+
+#compraVende{
+    height: 100%;
+    width: 100%;
+    background-image: url("../imagenes/fondo-uno.png");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-principal{
+    width: 75%;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor-principal .titulo-texto{
+    width: 50%;
+    display: inline;
+    margin: auto;
+}
+
+.contenedor-principal .titulo-texto h2{
+    font-size: 34px;
+    text-transform: uppercase;
+    color: black;
+    text-align: left;
+}
+
+.compra-vende-imagen img{
+    height: 800px;
+    width: 600px;
+    margin-bottom: -4px;
+}
+
+.titulo-texto a{
+    background-color: #5ac763;
+    padding: 12px 24px;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    width: fit-content;
+}
+
+.acerca-secundario a{
+    background-color: #5ac763;
+    padding: 12px 24px;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    width: fit-content;
+}
+
+
+#acercaDeNosotros{
+    height: 100%;
+    width: 100%;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.acerca-principal{
+    width: 50%;
+}
+
+.acerca-principal iframe{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.acerca-principal h2{
+    font-size: 34px;
+    text-transform: uppercase;
+    color: white;
+    text-align: center;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.acerca-principal p{
+    font-size: 16px;
+    text-align: center;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.acerca-secundario{
+    width: 100%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.acerca-secundario .col{
+    height: 600px;
+    width: 400px;
+    margin: 20px;
+    padding: 0px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.acerca-secundario .col img{
+    height: 350px;
+    width: 100%;
+    padding: 0;
+    object-fit: cover;
+    border-radius: 15px 15px 0 0;
+}
+
+.acerca-secundario h3{
+    margin: 20px 0;
+}
+
+.acerca-secundario p{
+    padding: 0 20px;
+}
+
+#footer{
+    height: 200px;
+    width: 100%;
+    background-color: #82C3D9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 75%;
+
+}
+
+.footer-col{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.colu-one{
+    width: 20%;
+}
+
+.colu-two{
+    width: 80%;
+}
+
+.colu-two ul{
+    list-style-type: none;
+    display: flex;
+}
+
+.colu-two a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    padding: 20px;
+    margin: 10px;
+}
+
+#contactameSegmento{
+    height: 100vh;
+    width: 100%;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactame-secundario{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    align-items: center;
+    width: 75%;
+    height: 75%;
+    border-radius: 15px;
+}
+
+.contactame-secundario h2{
+    font-size: 30px;
+    margin: 20px 0;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.formulario h3{
+    margin: 20px 0;
+}
+
+.formulario form{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    
+}
+
+.formulario input{
+    margin: 5px 0;
+}
