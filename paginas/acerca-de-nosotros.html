@@ -13,18 +13,40 @@
 </head>
 <body>
     <header>
-        <img src="../imagenes/casa-logo.png" alt="Casa Real Logo" class="logo">
-        <nav>
-            <ul>
-                <li class="list-item"><a href="../index.html">Inicio</a></li>
-                <li class="list-item"><a href="../paginas/propiedades.html">Propiedades</a></li>
-                <li class="list-item"><a href="../paginas/compra-y-vende.html">Compra y vende</a></li>
-                <li class="list-item"><a href="./acerca-de-nosotros.html">Acerca de nosotros</a></li>
-                <li class="list-item"><a href="../paginas/testimonios.html">Testimonios</a></li>
-                <li class="list-item"><a href="../paginas/contactame.html">Contactame</a></li>
-            </ul>
-            </div>
-        </nav>
+        <nav class="col-12 navbar navbar-expand-lg ">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="col container" >
+                        <a class="navbar-brand" href="#">
+                          <img src="../imagenes/casa-logo.png" alt="Casa Real Logo" width="50" height="50">
+                        </a>
+                    </div>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="../paginas/propiedades.html">Propiedades</a>
+                        </li>
+                        <li class="nav-item">
+                        <a class="nav-link" href="../paginas/compra-y-vende.html">Compra y vende</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./acerca-de-nosotros.html">Acerca de nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../paginas/testimonios.html">Testimonios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../paginas/contactame.html">Contactame</a>
+                        </li>
+                    </ul>
+                </div>
+              </div>
+          </nav>
     </header>
     <main>
         <section id="acercaDeNosotros">
@@ -50,23 +72,40 @@
         </section>
     </main>
     <footer id="footer">
-        <div class="footer-contenedor">
-            <div class="footer-col">
-                <div class="colu-one">
-                    <img src="../imagenes/casa-logo.png" alt="Casa Real Logo">
-                </div>
-                <div class="colu-two">
-                    <ul>
-                        <li class="list-item"><a href="../index.html">Inicio</a></li>
-                        <li class="list-item"><a href="../paginas/propiedades.html">Propiedades</a></li>
-                        <li class="list-item"><a href="../paginas/compra-y-vende.html">Compra y vende</a></li>
-                        <li class="list-item"><a href="./acerca-de-nosotros.html">Acerca de nosotros</a></li>
-                        <li class="list-item"><a href="../paginas/testimonios.html">Testimonios</a></li>
-                        <li class="list-item"><a href="../paginas/contactame.html">Contactame</a></li>
-                    </ul>
-                </div>
+        <nav class="uni col-12 navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">CASA REAL</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../paginas/propiedades.html">Propiedades</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../paginas/compra-y-vende.html">Compra y vende</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./acerca-de-nosotros.html">Acerca de nosotros</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../paginas/testimonios.html">Testimonios</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="../paginas/contactame.html">Contactame</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit">Search</button>
+                </form>
+              </div>
             </div>
-        </div>
+          </nav>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>    
 </body>
