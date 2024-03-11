@@ -1,0 +1,18 @@
+#heroP{
+    height: 600px;
+    width: 100%;
+    background-image: url("../imagenes/medellin-dos.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    h1{
+        font-size: 48px;
+        text-transform: uppercase;
+        margin: 40px 0;
+        color: #FFF;
+    }
+}

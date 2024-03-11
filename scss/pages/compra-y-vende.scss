@@ -1,0 +1,44 @@
+#compraVende{
+    height: 100%;
+    width: 100%;
+    background-image: url("../imagenes/fondo-uno.png");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor-principal{
+    width: 75%;
+    display: flex;
+    justify-content: center;
+    .titulo-texto{
+        width: 50%;
+        display: inline;
+        margin: auto;
+    }
+    .titulo-texto h2{
+        font-size: 34px;
+        text-transform: uppercase;
+        color: black;
+        text-align: left;
+    }
+    img{
+        height: 800px;
+        width: 600px;
+        margin-bottom: -4px;
+    }
+}
+
+.titulo-texto a{
+    background-color: #5ac763;
+    padding: 12px 24px;
+    border-radius: 8px;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+    width: fit-content;
+}

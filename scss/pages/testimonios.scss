@@ -1,0 +1,129 @@
+$bg-primary-400: #7541C8;
+$bg-secondary-400: #48556A;
+$bg-secondary-500: #19212E;
+$bg-neutral-100: #A8AEC1;
+$text-neutral-100: #FFFFFF;
+$text-secondary-400: #48556A;
+
+.bg-primary-400 {
+    background: $bg-primary-400;
+}
+.bg-secondary-400 {
+    background: $bg-secondary-400;
+}
+
+.bg-secondary-500 {
+    background:$bg-secondary-500;
+}
+  
+.bg-neutral-100 {
+    background:$bg-neutral-100;
+}
+  
+.text-neutral-100 {
+    color:$text-neutral-100;
+}
+
+.text-secondary-400 {
+    color:$text-secondary-400;
+}
+
+.border-primary-400 {
+    border: 2px solid #a775f1;
+}
+
+.testimonial-grid {
+    display: grid;
+    gap: 1.5rem;
+    grid-auto-columns: 1fr;
+    grid-template-areas: 
+    'one'
+    'two'
+    'three'
+    'four'
+    'five';
+
+    padding-block: 2rem;
+    width: min(95%, 70rem);
+    margin-inline: auto;
+}
+
+.flex {
+    display: flex;
+    img{
+        margin-right: 10px;
+    }
+}
+
+.testimonial {
+    font-size: 16px;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 20px 20px 15px -4px rgba(0,0,0,0.2);
+    h2{
+        margin-bottom: 2px;
+    }
+    p{
+        margin-bottom: 5px;
+    }
+    &:nth-child(1){
+        grid-area: one;
+    }
+    &:nth-child(2){
+        grid-area: two;
+    }
+    &:nth-child(3){
+        grid-area: three;
+    }
+    &:nth-child(4){
+        grid-area: four;
+    }
+    &:nth-child(5){
+        grid-area: five;
+    }
+    &.quote {
+        background-image: url("./images/bg-pattern-quotation.svg");
+        background-repeat: no-repeat;
+        background-position: top right 10%;
+    }
+    img {
+        width: 1.75rem;
+        aspect-ratio: 1;
+        border-radius: 50%;
+    }
+    .name {
+        font-size: 16px;
+        font-weight: 400;
+    }
+    .position {
+        font-size: 16px;
+        opacity: 0.5;
+    }
+}
+
+.testimonial > p:first-of-type {
+    font-size: 16px;
+    line-height: 1.2;
+}
+  
+.testimonial > p:last-of-type {
+    opacity: 0.8;
+}
+
+@media (min-width: 30em) {
+    .testimonial-grid{
+        grid-template-areas: 
+        'one one'
+        'two three'
+        'five five'
+        'four four';
+    }
+}
+
+@media (min-width: 50em) {
+    .testimonial-grid{
+        grid-template-areas: 
+        'one one two five'
+        'three four four five';
+    }
+}

@@ -1,0 +1,105 @@
+#hero{
+    height: 600px;
+    width: 100%;
+    background-image: url("../imagenes/medellin-hero.jpg");
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    h1{
+        font-size: 48px;
+        text-transform: uppercase;
+        margin: 40px 0;
+        color: #FFF;
+    }
+}
+
+
+#totalPropiedades{
+    height: 100%;
+    width: 100%;
+    background-color: lightblue;
+    display: flex;
+    justify-content: center;
+    h2 {
+        font-size: 34px;
+        text-transform: uppercase;
+        margin: 50px 0 50px 0;
+        color: #FFF;
+        text-align: center;
+    }
+}
+
+.propiedades{
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 100px 0;
+}
+
+.propiedad {
+    height: 350px;
+    width: 350px;
+    background-color: white;
+    margin: 20px;
+    border-radius: 15px;
+    h4{
+        background-color: #5ac763;
+        color:beige;
+        height: 40px;
+        width: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-transform: uppercase;
+        margin: 250px 0 0 0;
+        font-size: 15px;
+    }
+    &.uno{
+        background-image: url("../imagenes/casa-uno.jpg");
+        background-size: cover;
+        background-repeat:no-repeat;
+        background-position: center;
+    
+    }
+    &.dos{
+        background-image: url("../imagenes/casa-dos.jpg");
+        background-size: cover;
+        background-repeat:no-repeat;
+        background-position: center;
+    
+    }
+    &.tres{
+        background-image: url("../imagenes/casa-tres.jpg");
+        background-size: cover;
+        background-repeat:no-repeat;
+        background-position: center;
+    
+    }
+    &.cuatro{
+        background-image: url("../imagenes/casa-cuatro.jpg");
+        background-size: cover;
+        background-repeat:no-repeat;
+        background-position: center;
+    
+    }
+    &.cinco{
+        background-image: url("../imagenes/casa-cinco.jpg");
+        background-size: cover;
+        background-repeat:no-repeat;
+        background-position: center;
+    
+    }
+    &.seis{
+        background-image: url("../imagenes/casa-seis.jpg");
+        background-size: cover;
+        background-repeat:no-repeat;
+        background-position: center;
+    
+    }
+}
+
