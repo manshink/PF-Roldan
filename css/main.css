@@ -91,6 +91,12 @@ header .logo {
   background-color: white;
   margin: 20px;
   border-radius: 15px;
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.propiedad:hover {
+  transform: scale(1.02);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 .propiedad h4 {
   background-color: #5ac763;
