@@ -274,6 +274,12 @@ footer .list-item a {
   width: fit-content;
 }
 
+.titulo-texto a {
+  border-radius: 28px;
+  background: #5ac763;
+  box-shadow: 20px 20px 40px #4da954, -20px -20px 40px #68e572;
+}
+
 #acercaDeNosotros {
   height: 100%;
   width: 100%;
